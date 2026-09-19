@@ -17,7 +17,7 @@ jobs:
         run: |
           rm -rf build-source
           mkdir build-source
-          unzip -q JerryAssistant-v2.zip -d build-source
+          unzip -q JerryAssistant-v3.zip -d build-source
 
       - name: Set up JDK 17
         uses: actions/setup-java@v4
